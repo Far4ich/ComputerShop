@@ -1,0 +1,32 @@
+.Product-card{
+    margin-top: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(129, 129, 129);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Product-card-picture{
+    border-radius: 15px 0 0 15px;
+    width: 350px;
+    height: 250px;
+}
+
+.Product-card:hover{
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Product-card-text{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 480px;
+}
+
+.Product-card-text-top{
+    display: flex;
+    justify-content: space-between;
+}

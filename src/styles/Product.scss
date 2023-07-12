@@ -1,0 +1,38 @@
+.Product{
+    margin: 30px auto 100px;
+    width: 1200px;
+}
+
+.Product-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Product-data-text{
+    width: 600px;
+}
+
+.Product-data-text-description{
+    margin-top: 10px;
+}
+
+.Product-data-text-price{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Product-data-text-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Product-data-text-chart{
+    margin-top: 10px;
+    height: 200px;
+}
+
+.Product-data-text-chart-title{
+    display: flex;
+    justify-content: space-between;
+}
